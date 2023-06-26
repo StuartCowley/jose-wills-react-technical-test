@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="app"
+  >
+    <img
+      alt="nasa-logo"
+      class="app__nasa-logo"
+      src="nasa-worm-logo.jpg"
+    />
+    <h2>
+      This is a search engine for outer space
+    </h2>
+    <form>
+      <input
+        class="search__input"
+        placeholder="Enter image keywords here"
+        type="search"
+      />
+      <input
+        class="search__button"
+        type="submit"
+        value="Search"
+      />
+    </form>
+    <p>
+      Have you searched yet? Either there's no results, or start exploring!
+    </p>
+  </div>
+</DocumentFragment>
+`;
